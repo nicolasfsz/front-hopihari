@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Perfil - Hopi Hari</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="shortcut icon" type="image/png" href="https://i0.statig.com.br/hopihari/img/icon-hh.png?1"/>
+    
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://i0.statig.com.br/imgs/logo_25anos_hh_headerv2.png" alt="Logo Hopi Hari">
+                </div>
+                <div class="user-menu">
+                    <div class="user-info">
+                        <div class="user-name" id="user-name">Meu Perfil</div>
+                        <div class="user-email" id="user-email"></div>
+                    </div>
+                    <form action="/pages/dashboard/dashboard.html">
+                        <button class="logout-btn">Voltar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="profile-section">
+        <div class="profile-header-section">
+            <div style="display: flex; align-items: center;">
+                <div class="profile-image-container">
+                    <img src="user_profile_placeholder.png" alt="Foto de Perfil">
+                </div>
+                <h2>Dados do Usuário</h2>
+            </div>
+        </div>
+        <div class="user-details-grid">
+            <div class="form-group">
+                <label for="login">Login*</label>
+                <input type="email" id="login" value="karyna@shosp.com.br" class="readonly-input" readonly>
+            </div>
+            <div class="form-group">
+                <button class="button secondary-button">Alterar senha</button>
+            </div>
+            <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" value="GISELE">
+            </div>
+            <div class="form-group">
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="date" id="data_nascimento" value="2019-09-04">
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" value="(21) 3215-8788">
+            </div>
+            <div class="form-group">
+                <label for="celular">Celular</label>
+                <input type="tel" id="celular" value="(21) 98664-8888">
+            </div>
+            <div class="form-group">
+                <label for="prestador">Prestador</label>
+                <select id="prestador">
+                    <option>NÃO É PRESTADOR</option>
+                </select>
+            </div>
+            <div class="form-group button-group">
+                <button class="button primary-button">Salvar</button>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Você pode adicionar JavaScript aqui para funcionalidades interativas
+    </script>
+</body>
+</html>
