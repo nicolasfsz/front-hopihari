@@ -142,10 +142,15 @@
 }
 
 body {
-    background-image: url('https://senaisp.notion.site/image/attachment%3A96910306-7927-4d86-8ab8-01916a8e1c62%3Amapa-hopi.jpeg?table=block&id=1e892518-60df-8027-a3c1-f21360d8df26&spaceId=47033f8f-b3a0-4db5-9352-a3af32b719c1&width=1360&userId=&cache=v2');
-    background-color: #f5f5f5;
-    min-height: 100vh;
-}
+            background-image: url('https://senaisp.notion.site/image/attachment%3A96910306-7927-4d86-8ab8-01916a8e1c62%3Amapa-hopi.jpeg?table=block&id=1e892518-60df-8027-a3c1-f21360d8df26&spaceId=47033f8f-b3a0-4db5-9352-a3af32b719c1&width=1360&userId=&cache=v2');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
 
 .header {
     background-color: #FF6B00;
